@@ -1,5 +1,6 @@
 #include "bus.h"
 #include <stdio.h>
+#include "constants.h"
 
 void Bus_print(struct Bus* bus) {
     // size of the individual memory members

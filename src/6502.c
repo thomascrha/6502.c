@@ -1,9 +1,13 @@
-#include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
 
 #include "cpu.h"
 #include "bus.h"
+
+#include "constants.h"
+
+const uint16_t MEMORY_SIZE = 0xFFFF;
+const uint16_t MEMORY_PRINT_WIDTH = 10000;
 
 int main () {
     struct Bus bus;
